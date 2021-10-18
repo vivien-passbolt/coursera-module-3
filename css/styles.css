@@ -1,0 +1,79 @@
+body {
+    font-size: 16px;
+    color: rgb(71, 71, 71);
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+ /** HEADER **/
+  #header-nav {
+    background-color: #6e6e6e;
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+  }
+  
+  .navbar-brand {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .navbar-brand h1 { /* Website name */
+    color: #000000;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0px;
+    line-height: 20%;
+  }
+  .navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+  }
+  
+  #nav-list {
+    margin-top: 0px;
+  }
+  #nav-list a {
+    color: #000000;
+    background-color:#6e6e6e ;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #ffc917;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #3a3a3a;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+ /* END HEADER */
+
+ /** BODY **/
+
+  body h2 {
+    text-align: center;
+    margin-bottom: 12px;
+  }
+  .tiles {
+    margin-bottom: 24px;
+    padding: 12px 24px 12px 24px;
+    background: #a3a3a3;
+  }
+  .tiles h3 {
+    text-align: center;
+    margin-top: 0px;
+  }
+/* END BODY */
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { /* Website name */
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    /* End Header */
