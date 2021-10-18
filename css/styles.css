@@ -54,10 +54,6 @@ body {
 
  /** BODY **/
 
-  body h2 {
-    text-align: center;
-    margin-bottom: 12px;
-  }
   .tiles {
     margin-bottom: 24px;
     padding: 12px 24px 12px 24px;
